@@ -1,0 +1,146 @@
+#fundo5 {
+    background-color: rgb(226, 211, 191);
+    width: 75%;
+    height: 200px;
+    border: 1px solid black;   
+  }
+  #fundo6 {
+    background-color: rgb(226, 211, 191);
+    width: 75%;
+    height: 775px;
+    border: 1px solid black;
+  }
+#foto {
+    width: 100%;
+    height: 100%;
+    alt: 100%;
+    z-index: -5;
+    position: absolute;
+    
+}
+#logo {
+    position: relative;
+    vertical-align: middle;
+    top: -40px;
+}
+#textotop{
+    vertical-align: middle;
+    position: relative;
+    top: -35px;
+    color: rgb(83, 83, 83);
+    font-family: Snell Roundhand;
+    font-style: italic;
+    
+}
+a{
+    color: rgb(83, 83, 83);
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    }
+a:hover {
+    text-decoration: underline;
+    color: rgb(83, 83, 83);
+    }
+a:active {
+    text-decoration: none
+    }
+#comida1 {
+    position: relative;
+    top: 10%;
+    left: -17.5%;
+}
+#comida2 {
+    position: relative;
+    top: -28.7%;
+    left: 16.5%;
+}
+#textosite{
+    width: 400px;
+    position: relative;
+    text-align: center;
+    top: -21%;    
+    font-size: 20;
+    font-family: Snell Roundhand;
+    font-style: italic;
+    color: rgb(83, 83, 83);
+
+}
+#avaliacao {
+    position: relative;
+    top: -18%;
+    font-family: Snell Roundhand;
+    font-style: italic;
+    font-size: 25;
+    color: rgb(83, 83, 83);
+}
+#divisao {
+    border: 1px solid black;    
+    position: relative;
+    height: 0%;
+    width: 70%;
+    top: -25%;
+}
+#pratos {
+    position: relative;
+    top: 3.5%;
+    
+    font-family: Snell Roundhand;
+    font-style: italic;
+    font-size: 30;
+    color: rgb(83, 83, 83);
+}
+#divisao2 {
+    border: 1px solid black;    
+    position: relative;
+    height: 0%;
+    width: 70%;
+    top: 6.5%;
+}
+#cardapio {
+    background-color: rgb(226, 211, 191);
+    width: 75%;
+    height: 775px;
+    border: 1px solid black;
+}
+#fotocardapio1 {
+    position: relative;
+    left: -20%;
+    top: 15%;
+}
+#fotocardapio2 {
+    position: relative;
+    left: 15%;
+    top: 15%;
+    
+}
+#fotocardapio3 {
+    position: relative;
+    left:-20%;
+    top: 15%;
+}
+#fotocardapio4 {
+    position: relative;
+    left: 15%;
+    top: 15%;
+   
+}
+#fotocardapio5 {
+    position: relative;
+    left: -20%;
+    top: 15%;
+}
+#fotocardapio6 {
+    position: relative;
+    left: 15%;
+    top: 15%;
+    
+}
+#divisao3 {
+    border: 1px solid black;    
+    position: relative;
+    height: 0%;
+    width: 70%;
+    top: 5%;
+}
