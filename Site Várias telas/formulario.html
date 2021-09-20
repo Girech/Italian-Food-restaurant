@@ -1,0 +1,111 @@
+<head>
+    <title>Exemplo de formulario</title>
+</head>
+<body>
+    <h2>Formulário de Matrícula do Aluno</h2>
+    <br><br>
+    <h2>Dados Cadastrais do Aluno:</h2>
+    <form name="Dados Pessoais do Aluno" action="" method="post">
+    Nome: <input type="text" name="nome"  id="nome" size=30>
+    <br><br> 
+    Endereço: <input type="text" name="enderecos" id="enderecos" size=30>
+    <br><br> 
+    Bairro: <input type="text" name="bairro" id="bairro" size=30>
+    <br><br> 
+    Cidade: <input type="text" name="cidade" id="cidade" size=20>
+    Estado: <select name="estado">
+        <option value="">Selecione o Estado</option>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+        <option value="DF">Distrito Federal</option>
+
+    </select>
+    <br><br>
+    CEP: <input type="text" name="cep" id="cep" size=20>
+    País: <select name="pais">
+        <option value="">Selecione o País</option>
+        <option value="BR">Brasil</option>
+        <option value="EUA">Estados Unidos</option>
+        <option value="CA">Canada</option>
+       
+    </select> 
+    <br><br> 
+    Telefone Residencial: <input type="text" name="telefoner" id="telefoner" size=20>
+    Telefone Celular: <input type="text" name="telefonec" id="telefonec" size=20>
+    <br><br>
+    Sexo: <select name="sexo">
+        <option value="">Selecione o Sexo</option>
+        <option value="M">Masculino</option>
+        <option value="F">Feminino</option>
+        <option value="O">Outro</option>
+       
+    </select>
+    Estado Civil: <select name="estado civil">
+        <option value="">Selecione o Estado Civil</option>
+        <option value="S">Solteiro</option>
+        <option value="C">Casado</option>
+        <option value="V">Viúvo</option>
+       
+    </select>
+    <br><br>
+    Data de nascimento: <input type="date" name="datanasci" id="datanasci" size=20>
+    <br><br><br><br>
+    <h2>Dados de Matrícula</h2>
+    Nivel de Educação: <input type="checkbox" name="ensino fundamental" id="ensino fundamental">Ensino Fundamental
+                       <input type="checkbox" name="ensino fundamental" id="ensino fundamental">Ensino Médio
+                       <input type="checkbox" name="ensino fundamental" id="ensino fundamental">Ensino Técnico
+    <br><br>
+    Ano: <select name="ano">
+        <option value="">Selecione o Ano</option>
+        <option value="1">1 ano fundamental</option>
+        <option value="2">2 ano fundamental</option>
+        <option value="3">3 ano fundamental</option>
+        <option value="4">4 ano fundamental</option>
+        <option value="5">5 ano fundamental</option>
+        <option value="6">6 ano fundamental</option>
+        <option value="7">7 ano fundamental</option>
+        <option value="8">8 ano fundamental</option>
+        <option value="9">9 ano fundamental</option>
+        <option value="10">1 ano médio</option>
+        <option value="11">2 ano médio</option>
+        <option value="12">3 ano médio</option>
+        
+       
+    </select> 
+    <br><br>
+    Curso: <input type="checkbox" name="info" id="info ">Informática
+           <input type="checkbox" name="cv" id="cv">Comunicação Visual
+           <input type="checkbox" name="qui" id="qui">Química
+           <input type="checkbox" name="adm" id="adm">Administração
+    <br><br>
+    Periodo: <input type="radio" name="ma" id="ma">Matutino
+             <input type="radio" name="ve" id="ve">Vespertino
+             <input type="radio" name="no" id="no">Noturno
+    <br><br>
+    <input type="submit"> <input type="reset">
+    </form>
+</body>

@@ -88,10 +88,11 @@ a:active {
     
     font-family: Snell Roundhand;
     font-style: italic;
-    font-size: 30;
+    font-size: 50;
     color: rgb(83, 83, 83);
 }
 #divisao2 {
+
     border: 1px solid black;    
     position: relative;
     height: 0%;
@@ -101,37 +102,43 @@ a:active {
 #cardapio {
     background-color: rgb(226, 211, 191);
     width: 75%;
-    height: 775px;
+    height: 930px;
     border: 1px solid black;
 }
-#fotocardapio1 {
+#fotocardapio1  img{
+    -webkit-border-radius: 20px;
     position: relative;
     left: -20%;
     top: 15%;
 }
-#fotocardapio2 {
+#fotocardapio2  img{
+    -webkit-border-radius: 20px;
     position: relative;
     left: 15%;
     top: 15%;
     
 }
-#fotocardapio3 {
+#fotocardapio3  img{
+    -webkit-border-radius: 20px;
     position: relative;
     left:-20%;
     top: 15%;
 }
-#fotocardapio4 {
+#fotocardapio4  img{
+    -webkit-border-radius: 20px;
     position: relative;
     left: 15%;
     top: 15%;
    
 }
-#fotocardapio5 {
+#fotocardapio5  img{
+    -webkit-border-radius: 20px;
     position: relative;
     left: -20%;
     top: 15%;
 }
-#fotocardapio6 {
+#fotocardapio6  img{
+    -webkit-border-radius: 20px;
     position: relative;
     left: 15%;
     top: 15%;
@@ -144,3 +151,37 @@ a:active {
     width: 70%;
     top: 5%;
 }
+#fundoform {
+    background-color: rgb(226, 211, 191);
+    width: 75%;
+    height: 950px;
+    border: 1px solid black;
+  }
+  #form{
+    font-family: Snell Roundhand;
+    font-style: italic;
+    font-size: 30;
+    color: rgb(83, 83, 83);
+  }
+  #cform{
+    font-family: Snell Roundhand;
+    font-style: italic;
+    font-size: 20;
+    color: rgb(83, 83, 83);
+  }
+  #divisao4 {
+    border: 1px solid black;    
+    position: relative;
+    height: 0%;
+    width: 70%;
+    top: 0%;
+}
+#tabela{
+    left: 5%;
+    position: relative;
+    top: 10%;
+    
+
+}
+
+
